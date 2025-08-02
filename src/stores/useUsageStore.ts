@@ -5,7 +5,7 @@ import { date2unix } from 'utils/util';
 import { create } from 'zustand';
 import useProviderStore from './useProviderStore';
 
-const debug = Debug('5ire:stores:useUsageStore');
+const debug = Debug('Yire:stores:useUsageStore');
 
 export interface IUsageStore {
   create: (usage: Partial<IUsage>) => Promise<IUsage>;

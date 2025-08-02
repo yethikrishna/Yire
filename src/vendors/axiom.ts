@@ -28,14 +28,14 @@ function getAxiom() {
  */
 export default {
   /**
-   * Ingests data into the '5ire' dataset in Axiom.
+   * Ingests data into the 'Yire' dataset in Axiom.
    * Safely handles errors by capturing exceptions without throwing.
    * @param {Array<{[key: string]: any}>} data - Array of objects to ingest
    */
   ingest(data: { [key: string]: any }[]) {
     try {
       const axiom = getAxiom();
-      axiom && axiom.ingest('5ire', data);
+      axiom && axiom.ingest('Yire', data);
     } catch (err: any) {
       captureException(err);
     }

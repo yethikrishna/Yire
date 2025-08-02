@@ -30,7 +30,7 @@ import {
 import { isValidTemperature } from 'intellichat/validators';
 import { captureException } from '../renderer/logging';
 
-const debug = Debug('5ire:stores:useChatStore');
+const debug = Debug('Yire:stores:useChatStore');
 
 const defaultTempStage = {
   provider: '',
