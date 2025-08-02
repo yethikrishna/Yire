@@ -1,6 +1,6 @@
-# 5ire Development Setup Guide
+# Yire Development Setup Guide
 
-This guide will help you set up the development environment for the 5ire project and run it locally.
+This guide will help you set up the development environment for the Yire project and run it locally.
 
 ## Prerequisites
 
@@ -14,8 +14,8 @@ This guide will help you set up the development environment for the 5ire project
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/nanbingxyz/5ire.git
-cd 5ire
+git clone https://github.com/yethikrishna/Yire.git
+cd Yire
 ```
 
 ### 2. Node.js Setup

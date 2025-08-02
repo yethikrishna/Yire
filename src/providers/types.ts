@@ -10,7 +10,7 @@ export type ProviderType =
   | 'Ollama'
   | 'LMStudio'
   | 'ChatBro'
-  | '5ire'
+  | 'Yire'
   | 'Doubao'
   | 'Grok'
   | '302.AI'

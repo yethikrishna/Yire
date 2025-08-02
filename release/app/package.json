@@ -1,12 +1,12 @@
 {
-  "name": "5ire",
+  "name": "Yire",
   "version": "0.13.2",
-  "description": "A Sleek Desktop AI Assistant & MCP Client",
+  "description": "A Sleek Desktop AI Assistant & MCP Client by YETI AI",
   "license": "Modified Apache-2.0",
   "author": {
-    "name": "Ironben",
-    "email": "support@5ire.app",
-    "url": "https://5ire.app"
+    "name": "YETI AI",
+    "email": "yethikrishna.r@gmail.com",
+    "url": "https://github.com/yethikrishna"
   },
   "main": "./dist/main/main.js",
   "scripts": {

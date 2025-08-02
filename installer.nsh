@@ -1,18 +1,18 @@
 !macro customInstall
-  DeleteRegKey HKCR "app5ire"
-  WriteRegStr HKCR "app5ire" "" "URL:app5ire"
-  WriteRegStr HKCR "app5ire" "URL Protocol" ""
-  WriteRegStr HKCR "app5ire\shell" "" ""
-  WriteRegStr HKCR "app5ire\shell\Open" "" ""
-  WriteRegStr HKCR "app5ire\shell\Open\command" "" "$INSTDIR\{APP_EXECUTABLE_FILENAME} %1"
+  DeleteRegKey HKCR "appyire"
+  WriteRegStr HKCR "appyire" "" "URL:appyire"
+  WriteRegStr HKCR "appyire" "URL Protocol" ""
+  WriteRegStr HKCR "appyire\shell" "" ""
+  WriteRegStr HKCR "appyire\shell\Open" "" ""
+  WriteRegStr HKCR "appyire\shell\Open\command" "" "$INSTDIR\{APP_EXECUTABLE_FILENAME} %1"
 !macroend
 
 !macro customUnInstall
-  DeleteRegKey HKCR "app5ire"
+  DeleteRegKey HKCR "appyire"
 !macroend
 
 # Fix Can not find Squairrel error
 # https://github.com/electron-userland/electron-builder/issues/837#issuecomment-355698368
 !macro customInit
-  nsExec::Exec '"$LOCALAPPDATA\5ire\Update.exe" --uninstall -s'
+  nsExec::Exec '"$LOCALAPPDATA\Yire\Update.exe" --uninstall -s'
 !macroend

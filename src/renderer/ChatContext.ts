@@ -8,7 +8,7 @@ import { IChat, IChatContext, IChatMessage, IPrompt } from 'intellichat/types';
 import { IChatModelConfig, IChatProviderConfig } from 'providers/types';
 import useProviderStore from 'stores/useProviderStore';
 
-const debug = Debug('5ire:renderer:ChatContext');
+const debug = Debug('Yire:renderer:ChatContext');
 
 const createChatContext = (chatId?: string): IChatContext => {
   const getActiveChat = () => {

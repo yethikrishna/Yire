@@ -43,7 +43,7 @@ export default function TabSubscription() {
 
   const loadUsage = async (userId: string) => {
     try {
-      const resp = await fetch('https://openai.5ireai.com/v1/usage', {
+      const resp = await fetch('https://openai.yireai.com/v1/usage', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -267,7 +267,7 @@ export default function TabSubscription() {
                 type="button"
                 className="underline p-0"
                 onClick={() =>
-                  window.electron.openExternal('https://5ire.app/redeem-code')
+                  window.electron.openExternal('https://yire.app/redeem-code')
                 }
               >
                 {t('Subscription.HowToGetRedeemCode')}

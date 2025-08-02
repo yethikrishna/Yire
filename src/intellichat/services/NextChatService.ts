@@ -17,7 +17,7 @@ import useInspectorStore from 'stores/useInspectorStore';
 import { raiseError, stripHtmlTags } from 'utils/util';
 import { isValidHttpHRL } from 'utils/validators';
 
-const debug = Debug('5ire:intellichat:NextChatService');
+const debug = Debug('Yire:intellichat:NextChatService');
 
 export default abstract class NextCharService {
   protected updateBuffer: string = '';

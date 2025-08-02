@@ -21,7 +21,7 @@ import { IChatMessage } from '../../intellichat/types';
 import DOMPurify from 'dompurify';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-const debug = Debug('5ire:components:SearchDialog');
+const debug = Debug('Yire:components:SearchDialog');
 
 interface ISearchResultItem {
   key: string;

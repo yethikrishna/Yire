@@ -5,7 +5,7 @@ import { isUndefined, union } from 'lodash';
 import { TEMP_CHAT_ID } from 'consts';
 import { typeid } from 'typeid-js';
 
-const debug = Debug('5ire:stores:useChatKnowledgeStore');
+const debug = Debug('Yire:stores:useChatKnowledgeStore');
 
 export interface IChatKnowledgeStore {
   changes: { [key: string]: boolean };

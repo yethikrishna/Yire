@@ -1,14 +1,14 @@
 {
-  "name": "5ire",
-  "productName": "5ire",
+  "name": "Yire",
+  "productName": "Yire",
   "version": "0.13.2",
-  "description": "A Sleek Desktop AI Assistant & MCP Client",
+  "description": "A Sleek Desktop AI Assistant & MCP Client by YETI AI",
   "main": "src/main/main.ts",
-  "repository": "https://github.com/nanbingxyz/5ire.git",
+  "repository": "https://github.com/yethikrishna/Yire.git",
   "author": {
-    "name": "Ironben",
-    "email": "support@5ire.app",
-    "url": "https://5ire.app"
+    "name": "YETI AI",
+    "email": "yethikrishna.r@gmail.com",
+    "url": "https://github.com/yethikrishna"
   },
   "license": "Modified Apache-2.0",
   "scripts": {
@@ -21,9 +21,9 @@
     "electron:build": "electron-builder build --publish never",
     "rebuild": "electron-rebuild --parallel --types prod,dev,optional --module-dir release/app",
     "start": "tsx ./.erb/scripts/check-port-in-use.js && npm run start:renderer",
-    "start:main": "cross-env NODE_ENV=development DEBUG=5ire:* NODE_OPTIONS=\"--import tsx\" electronmon .",
-    "start:preload": "cross-env NODE_ENV=development DEBUG=5ire:* webpack --config ./.erb/configs/webpack.config.preload.dev.ts",
-    "start:renderer": "cross-env NODE_ENV=development DEBUG=5ire:* webpack serve --config ./.erb/configs/webpack.config.renderer.dev.ts",
+    "start:main": "cross-env NODE_ENV=development DEBUG=Yire:* NODE_OPTIONS=\"--import tsx\" electronmon .",
+    "start:preload": "cross-env NODE_ENV=development DEBUG=Yire:* webpack --config ./.erb/configs/webpack.config.preload.dev.ts",
+    "start:renderer": "cross-env NODE_ENV=development DEBUG=Yire:* webpack serve --config ./.erb/configs/webpack.config.renderer.dev.ts",
     "test": "jest",
     "prepare": "husky"
   },
@@ -226,8 +226,8 @@
     "zustand": "^4.3.9"
   },
   "build": {
-    "productName": "5ire",
-    "appId": "app.5ire.desktop",
+    "productName": "Yire",
+    "appId": "app.yire.desktop",
     "compression": "maximum",
     "asar": true,
     "asarUnpack": [
@@ -235,9 +235,9 @@
     ],
     "protocols": [
       {
-        "name": "5ire-deep-linking",
+        "name": "yire-deep-linking",
         "schemes": [
-          "app.5ire"
+          "app.yire"
         ]
       }
     ],

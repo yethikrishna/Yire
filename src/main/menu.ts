@@ -89,17 +89,17 @@ export default class MenuBuilder {
 
   buildDarwinTemplate(): MenuItemConstructorOptions[] {
     const subMenuAbout: DarwinMenuItemConstructorOptions = {
-      label: '5ire',
+      label: 'Yire',
       submenu: [
         {
-          label: 'About 5ire',
+          label: 'About Yire',
           selector: 'orderFrontStandardAboutPanel:',
         },
         { type: 'separator' },
         { label: 'Services', submenu: [] },
         { type: 'separator' },
         {
-          label: 'Hide 5ire',
+          label: 'Hide Yire',
           accelerator: 'Command+H',
           selector: 'hide:',
         },
@@ -192,13 +192,13 @@ export default class MenuBuilder {
         {
           label: 'Learn More',
           click() {
-            shell.openExternal('https://5ire.app');
+            shell.openExternal('https://yire.app');
           },
         },
         {
           label: 'Community Discussions',
           click() {
-            shell.openExternal('https://5ire.canny.io/');
+            shell.openExternal('https://yire.canny.io/');
           },
         },
       ],

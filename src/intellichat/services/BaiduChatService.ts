@@ -5,7 +5,7 @@ import { IChatContext, IChatRequestMessage } from '../types';
 import INextChatService from './INextCharService';
 import OpenAIChatService from './OpenAIChatService';
 
-const debug = Debug('5ire:intellichat:BaiduChatService');
+const debug = Debug('Yire:intellichat:BaiduChatService');
 
 export default class BaiduChatService
   extends OpenAIChatService

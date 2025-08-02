@@ -32,7 +32,7 @@ export const providers: { [key: string]: IServiceProvider } = {
   Zhipu,
   Perplexity,
   '302.AI': AI302,
-  '5ire': Fire,
+  'Yire': Fire,
 };
 
 export function getBuiltInProvider(

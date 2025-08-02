@@ -3,7 +3,7 @@ import { IChatResponseMessage } from 'intellichat/types';
 import BaseReader from './BaseReader';
 import { ITool } from './IChatReader';
 
-const debug = Debug('5ire:intellichat:AnthropicReader');
+const debug = Debug('Yire:intellichat:AnthropicReader');
 
 /**
  * Reader implementation for processing Anthropic API streaming responses.

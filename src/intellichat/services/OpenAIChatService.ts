@@ -19,7 +19,7 @@ import NextChatService from './NextChatService';
 import INextChatService from './INextCharService';
 import OpenAI from '../../providers/OpenAI';
 
-// const debug = Debug('5ire:intellichat:OpenAIChatService');
+// const debug = Debug('Yire:intellichat:OpenAIChatService');
 
 export default class OpenAIChatService
   extends NextChatService

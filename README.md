@@ -1,20 +1,21 @@
 <div align="center">
-  <a href="https://github.com/nanbingxyz/5ire">
-    <img src="https://5ire.app/logo.png" alt="Logo" width="120">
+  <a href="https://github.com/yethikrishna/Yire">
+    <img src="https://yire.app/logo.png" alt="Logo" width="120">
   </a>
   <br />
 
-   <h1>A Sleek AI Assistant & MCP Client</h1>
+   <h1>Yire - A Sleek AI Assistant & MCP Client</h1>
+   <p><strong>By YETI AI and Developed by YETHIKRISHNA R</strong></p>
    <div>
     <a href="https://modelcontextprotocol.io/clients" target="_blank"><img src="https://badge.mcpx.dev/?type=client" /></a>
     <img src="https://badge.mcpx.dev/?type=client&features=tools" />
     <img src="https://img.shields.io/badge/price-free-brightgreen.svg"/>
-    <a href="https://linkedin.com/in/nanbing" target="_blank"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" alt="follow on LinkedIn"></a>
+    <a href="https://linkedin.com/in/yethikrishna" target="_blank"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" alt="follow on LinkedIn"></a>
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/>
-     <a href="https://github.com/nanbingxyz/5ire/graphs/commit-activity" target="_blank">
-        <img alt="Commits last month" src="https://img.shields.io/github/commit-activity/m/nanbingxyz/5ire?labelColor=%20%2332b583&color=%20%2312b76a"></a>
-     <a href="https://github.com/nanbingxyz/5ire/issues" target="_blank">
-        <img alt="Issues closed" src="https://img.shields.io/github/issues-search?query=repo%3Ananbingxyz%2F5ire%20is%3Aclosed&label=issues%20closed&labelColor=%20%237d89b0&color=%20%235d6b98"></a>
+     <a href="https://github.com/yethikrishna/Yire/graphs/commit-activity" target="_blank">
+        <img alt="Commits last month" src="https://img.shields.io/github/commit-activity/m/yethikrishna/Yire?labelColor=%20%2332b583&color=%20%2312b76a"></a>
+     <a href="https://github.com/yethikrishna/Yire/issues" target="_blank">
+        <img alt="Issues closed" src="https://img.shields.io/github/issues-search?query=repo%3Ayethikrishna%2FYire%20is%3Aclosed&label=issues%20closed&labelColor=%20%237d89b0&color=%20%235d6b98"></a>
      <a href="https://mseep.ai/app/92bbc79d-4b4d-4707-8d43-2d3d8ebb4fa8" target="_blank"><img src="https://mseep.ai/badge.svg" alt="Verified on MseeP"/></a>
   </div>
    <br />
@@ -34,11 +35,11 @@
     <span style="font-size:12px;">/ Ollama</span>
   </div>
     <br />
-    <a href="https://x.com/intent/follow?screen_name=1ronben">Twitter</a>
+    <a href="https://x.com/intent/follow?screen_name=yethikrishna_r">Twitter</a>
     ·
-    <a href="https://github.com/nanbingxyz/5ire/releases/latest">Releases</a>
+    <a href="https://github.com/yethikrishna/Yire/releases/latest">Releases</a>
   </p>
-  <div><a href="https://buymeacoffee.com/ironben"><img src="https://github.com/user-attachments/assets/2265e2d6-2a17-4a48-b779-52a925261135" style="width:200px"/></a></div>
+  <div><a href="https://buymeacoffee.com/yethikrishna"><img src="https://github.com/user-attachments/assets/2265e2d6-2a17-4a48-b779-52a925261135" style="width:200px"/></a></div>
    <br />
 <video src="https://github.com/user-attachments/assets/741b23d3-31df-4749-bde4-103e2d415953.mp4"></video>
 </div>
@@ -56,11 +57,11 @@ For detailed installation instructions, please see our [Installation Guide](INST
 
 ### Getting involved
 
-If you want to contribute code to 5ire or develop your own apps based on 5ire, start with the [Development Setup Guide](DEVELOPMENT.md).
+If you want to contribute code to Yire or develop your own apps based on Yire, start with the [Development Setup Guide](DEVELOPMENT.md).
 
-Visit [Wiki](https://deepwiki.com/nanbingxyz/5ire) for more details.
+Visit [Wiki](https://deepwiki.com/yethikrishna/Yire) for more details.
 
-**🚀 To integrate 5ire’s one-click server installation into your website, see the** [One-Click Server Installation Integration Guide](https://github.com/nanbingxyz/5ire/wiki/One%E2%80%90Click-Server-Installation-Integration-Guide).
+**🚀 To integrate Yire’s one-click server installation into your website, see the** [One-Click Server Installation Integration Guide](https://github.com/yethikrishna/Yire/wiki/One%E2%80%90Click-Server-Installation-Integration-Guide).
 
 <br />
 
@@ -74,43 +75,43 @@ With tools, you can access the file system, obtain system information, interact 
 
 https://github.com/user-attachments/assets/5aa98f2b-c26d-435e-8196-73fa414066eb
 
-We have created an open [marketplace for MCP Servers](https://github.com/nanbingxyz/mcpsvr). it empowers users to discover exceptional tools while offering a streamlined process for sharing their own MCP server creations.
+We have created an open [marketplace for MCP Servers](https://github.com/yethikrishna/mcpsvr). it empowers users to discover exceptional tools while offering a streamlined process for sharing their own MCP server creations.
 
 https://github.com/user-attachments/assets/be66c30e-bb29-4dfe-9f25-8d396470ed60
 
 ## 💡 Local Knowledge Base
 
-We have integrated the bge-m3 as our local embedding model, which excels in multilingual vectorization. 5ire now supports parsing and vectorization of docx, xlsx, pptx, pdf, txt, and csv documents, enabling storage of these vectors to power robust Retrieval-Augmented Generation (RAG) capabilities locally.
+We have integrated the bge-m3 as our local embedding model, which excels in multilingual vectorization. Yire now supports parsing and vectorization of docx, xlsx, pptx, pdf, txt, and csv documents, enabling storage of these vectors to power robust Retrieval-Augmented Generation (RAG) capabilities locally.
 
-![Local Knowledge Base Screenshot](https://5ire.app/knowledge.png)
+![Local Knowledge Base Screenshot](https://yire.app/knowledge.png)
 
 ## 📈 Usage Analytics
 
 By keeping track of your API usage and spending, you can gain a better understanding of how much you're spending on the API and make informed decisions to optimize your use of the service.
 
-![Usage Analytics Screenshot](https://5ire.app/analytics.png)
+![Usage Analytics Screenshot](https://yire.app/analytics.png)
 
 ## ✨ Prompts Library
 
 The prompt library provides an effective way to create and organize your own prompts. These prompts are highly versatile, thanks to their support for variables.
 
-![Prompts Library Screenshot](https://5ire.app/prompts.png)
+![Prompts Library Screenshot](https://yire.app/prompts.png)
 
 ## 🔖 Bookmarks
 
 You can bookmark each conversation, and even if the original messages are deleted, the saved bookmarked content remains unaffected.
-![Bookmarks Screenshot](https://5ire.app/bookmarks.png)
+![Bookmarks Screenshot](https://yire.app/bookmarks.png)
 
 ## 🔍 Quick Search
 
 You can perform keyword searches across all conversations, quickly pinpointing the information you need.
-![Search Screenshot](https://5ire.app/search.png)
+![Search Screenshot](https://yire.app/search.png)
 
 > [!TIP]
-> Since 5ire uses native dependencies, it needs to be packaged on the corresponding platform. If it is on Mac OS, you may also need to configure APPLE_TEAM_ID, APPLE_ID, and APPLE_ID_PASS for notarization to avoid security alerts.
+> Since Yire uses native dependencies, it needs to be packaged on the corresponding platform. If it is on Mac OS, you may also need to configure APPLE_TEAM_ID, APPLE_ID, and APPLE_ID_PASS for notarization to avoid security alerts.
 
 <hr/>
 
 ## Discover Exceptional MCP Servers
 
-[MCPSvr](https://github.com/nanbingxyz/mcpsvr), a community-driven directory of MCP servers, empowers developers to discover exceptional tools while offering a streamlined process for sharing their own MCP server creations.
+[MCPSvr](https://github.com/yethikrishna/mcpsvr), a community-driven directory of MCP servers, empowers developers to discover exceptional tools while offering a streamlined process for sharing their own MCP server creations.
