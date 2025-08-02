@@ -239,7 +239,7 @@ export default function Register() {
               type="button"
               onClick={() =>
                 window.electron.openExternal(
-                  'https://5ire.app/terms-of-service',
+                  'https://yire.app/terms-of-service',
                 )
               }
               className="underline"
@@ -250,7 +250,7 @@ export default function Register() {
             <button
               type="button"
               onClick={() =>
-                window.electron.openExternal('https://5ire.app/privacy-policy')
+                window.electron.openExternal('https://yire.app/privacy-policy')
               }
               className="underline"
             >

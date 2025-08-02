@@ -10,7 +10,7 @@ import { urlJoin } from 'utils/util';
 import INextChatService from './INextCharService';
 import OpenAIChatService from './OpenAIChatService';
 
-const debug = Debug('5ire:intellichat:FireChatService');
+const debug = Debug('Yire:intellichat:FireChatService');
 
 /**
  * Chat service implementation that extends OpenAIChatService to work with the Fire provider.

@@ -31,7 +31,7 @@ import ProviderForm from './ProviderForm';
 import ProviderList from './ProviderList';
 import { captureException } from '../../logging';
 
-const debug = Debug('5ire:pages:providers:index');
+const debug = Debug('Yire:pages:providers:index');
 
 const DEFAULT_HEIGHT = 400;
 const HEADER_HEIGHT = 90;

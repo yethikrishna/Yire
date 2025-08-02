@@ -14,10 +14,10 @@ import './fluentui.scss';
 import { ContextMenuProvider } from './components/ContextMenuProvider';
 
 if (window.envVars.NODE_ENV === 'development') {
-  Debug.enable('5ire:*');
+  Debug.enable('Yire:*');
 }
 
-const debug = Debug('5ire:App');
+const debug = Debug('Yire:App');
 
 logging.init();
 

@@ -89,7 +89,7 @@ class AppUpdater {
     autoUpdater.forceDevUpdateConfig = true;
     autoUpdater.setFeedURL({
       provider: 'generic',
-      url: 'https://github.com/nanbingxyz/5ire/releases/latest/download/',
+      url: 'https://github.com/yethikrishna/Yire/releases/latest/download/',
     });
 
     autoUpdater.on('update-available', (info: any) => {
@@ -139,7 +139,7 @@ let rendererReady = false;
 let pendingInstallTool: any = null;
 let downloader: Downloader;
 let mainWindow: BrowserWindow | null = null;
-const protocol = app.isPackaged ? 'app.5ire' : 'dev.5ire';
+const protocol = app.isPackaged ? 'app.yire' : 'dev.yire';
 
 if (process.defaultApp) {
   if (process.argv.length >= 2) {
@@ -454,8 +454,8 @@ ipcMain.handle('cancel-request', async (event, requestId: string) => {
   return false;
 });
 
-ipcMain.on('ipc-5ire', async (event) => {
-  event.reply('ipc-5ire', {
+ipcMain.on('ipc-Yire', async (event) => {
+  event.reply('ipc-Yire', {
     darkMode: nativeTheme.shouldUseDarkColors,
   });
 });
@@ -1032,7 +1032,7 @@ if (app.dock) {
   app.dock.setIcon(dockIcon);
 }
 
-app.setName('5ire');
+app.setName('Yire');
 
 process.on('uncaughtException', (error) => {
   logging.captureException(error);

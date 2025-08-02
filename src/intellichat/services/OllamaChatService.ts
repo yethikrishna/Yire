@@ -11,7 +11,7 @@ import OpenAIChatService from './OpenAIChatService';
 import INextChatService from './INextCharService';
 import Ollama from '../../providers/Ollama';
 
-const debug = Debug('5ire:intellichat:OllamaChatService');
+const debug = Debug('Yire:intellichat:OllamaChatService');
 export default class OllamaChatService
   extends OpenAIChatService
   implements INextChatService

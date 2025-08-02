@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 import ConfirmDialog from 'renderer/components/ConfirmDialog';
 import Debug from 'debug';
 
-const debug = Debug('5ire:pages:settings:EmbedSettings');
+const debug = Debug('Yire:pages:settings:EmbedSettings');
 
 /**
  * Configuration array containing the required model files and their download URLs

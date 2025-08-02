@@ -35,7 +35,7 @@ import AppLoader from '../apps/Loader';
 import ToolSetup from './ToolSetup';
 import WindowsTitleBar from './layout/WindowsTitleBar';
 
-const debug = Debug('5ire:components:FluentApp');
+const debug = Debug('Yire:components:FluentApp');
 
 const fire: BrandVariants = {
   10: '#030303',

@@ -17,7 +17,7 @@ import ZhipuChatService from './ZhipuChatService';
 import INextChatService from './INextCharService';
 import PerplexityChatService from './PerplexityChatService';
 
-const debug = Debug('5ire:intellichat:ChatService');
+const debug = Debug('Yire:intellichat:ChatService');
 
 export default function createService(chatCtx: IChatContext): INextChatService {
   const provider = chatCtx.getProvider();
@@ -39,7 +39,7 @@ export default function createService(chatCtx: IChatContext): INextChatService {
       return new MoonshotChatService(provider.name, chatCtx);
     case 'Ollama':
       return new OllamaChatService(provider.name, chatCtx);
-    case '5ire':
+    case 'Yire':
       return new FireChatService(provider.name, chatCtx);
     case 'Doubao':
       return new DoubaoChatService(provider.name, chatCtx);

@@ -25,7 +25,7 @@ import Anthropic from '../../providers/Anthropic';
 // eslint-disable-next-line import/order
 import { isPlainObject, omit } from 'lodash';
 
-const debug = Debug('5ire:intellichat:AnthropicChatService');
+const debug = Debug('Yire:intellichat:AnthropicChatService');
 
 export default class AnthropicChatService
   extends NextChatService

@@ -20,7 +20,7 @@ import useChatStore from 'stores/useChatStore';
 import { IChat, IChatContext } from 'intellichat/types';
 import Mousetrap from 'mousetrap';
 
-// const debug = Debug('5ire:pages:chat:Editor:Toolbar:TemperatureCtrl');
+// const debug = Debug('Yire:pages:chat:Editor:Toolbar:TemperatureCtrl');
 
 const TemperatureIcon = bundleIcon(Temperature20Filled, Temperature20Regular);
 

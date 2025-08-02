@@ -26,7 +26,7 @@ import { ITool } from 'intellichat/readers/IChatReader';
 import NextChatService from './NextChatService';
 import INextChatService from './INextCharService';
 
-const debug = Debug('5ire:intellichat:GoogleChatService');
+const debug = Debug('Yire:intellichat:GoogleChatService');
 
 export default class GoogleChatService
   extends NextChatService
