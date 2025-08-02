@@ -1,4 +1,4 @@
 export const app = {
-  getPath: jest.fn().mockReturnValue('/Users/ironben/Library/Application Support/5ire'),
+  getPath: jest.fn().mockReturnValue('/Users/developer/Library/Application Support/Yire'),
   quit: jest.fn(),
 };
